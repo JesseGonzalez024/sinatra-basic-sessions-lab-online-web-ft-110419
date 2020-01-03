@@ -10,6 +10,10 @@ get '/' do
   erb :index
 end
 
+post '/checkout' do
+  binding.pry
+end
+
 
   
 end
