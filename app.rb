@@ -6,6 +6,9 @@ configure do
   set :session_secret, "secret"
 end
 
+get '/' do 
+  erb :index
+end
 
 
   
